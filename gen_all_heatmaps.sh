@@ -1,0 +1,9 @@
+python heatmap_num_live_cells.py  0.25
+python heatmap_live_cells_threshold.py	0.25
+python heatmap_mean_oncoprotein.py  0.25
+python heatmap_num_live_cells.py  0.5
+python heatmap_live_cells_threshold.py	0.5
+python heatmap_mean_oncoprotein.py  0.5
+python heatmap_num_live_cells.py  0.75
+python heatmap_live_cells_threshold.py	0.75
+python heatmap_mean_oncoprotein.py  0.75
