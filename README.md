@@ -15,3 +15,4 @@ The Anaconda Python 3 distribution (https://www.anaconda.com/download) was used 
  Attachment_lifetime = [15, 60, 120] - mins 
  Migration_bias = [0.25, 0.5, 0.75] - random migration bias towards chemotactic gradients 
  ```
+The `params_map_final.txt` file is the Rosetta Stone for mapping simulation runs to parameters used for those runs. Unfortunately, Argonne (ANL), who ran the simulations, had some runs that failed, so those are marked "missing" in `params_map_final.txt`, i.e., we didn't have data for those runs/parameters. But as we learned at the last minute, there were  a few other runs (not marked as "missing") that also failed to run. When creating animations of the .svg outputs (the Z=0 slices) corresponding to the corner cases of the heatmap parameter images, we had to sometimes mix runs using different random seed parameters, but that fulfilled the other parameters for those corner cases. Confusing? Yeah.
